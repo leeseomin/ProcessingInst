@@ -1,9 +1,9 @@
-#!/bin/bash 
+#!/bin/bash
 
 # To install a newer or older version of Processing, change the version below.
-version=3.4
+version=3.5.3
 
-echo This script will install Processing-$version-linux64 on Ubuntu 16.04.
+echo "This script will install Processing-$version-linux64 on Ubuntu 16.04/18.04."
 wget http://download.processing.org/processing-$version-linux64.tgz
 mkdir /opt/Processing
 tar -xvzf processing-$version-linux64.tgz -C /opt/Processing
